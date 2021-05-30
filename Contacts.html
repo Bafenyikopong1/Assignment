@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+      <title>...</title>
+   </head>
+	
+   <body>
+    <H><img src="Images/city2.JPG" alt="" height="" width="100%"/></H>
+      
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Lifestyle.html">Lifestyle</a>
+        <a href="Events.html">Events</a> 
+        <a href="Contacts.html">Contacts Us</a>
+          </div>
+          <Br> </Br>
+
+          <aside>
+               <p2>
+                <br><h2><center> Company details </h2></center></Br> 
+                P.O. Box 700,
+                Gaborone
+                <br></b2>
+                Rio Megaleng House
+                Khama Crescent, Plot 50350
+                <br></b2>
+                Tel: (+267) 395 8374 / 395 8706
+                <br></b2>
+                Email: investor@btc.bw
+                <br></b2>
+                Operating Hours Mon – Fri: 730am – 430pm
+                Saturday: Closed
+                Sunday and Public Holiday: Close
+                </p2>
+
+
+
+              </aside>
+      <article>
+         <section>
+            <!--image slider start-->
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="Images/contac2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/Contacts.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/contac.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="Images/cot.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+         </section>
+      </article>
+     <br> </br>
+
+      <footer class="footer">
+        <center>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </center>
+     </footer>
+      
+   </body>
+</html>
